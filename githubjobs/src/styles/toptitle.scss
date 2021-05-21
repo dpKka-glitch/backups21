@@ -1,0 +1,71 @@
+.top_tile {
+  width: 90vw;
+  border-radius: 6px;
+  background-color: rgb(253, 255, 253);
+  position: relative;
+  width: 10rem;
+  .title_box {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 765px) {
+      padding-left: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 765px) {
+    .company_logo {
+      position: absolute;
+      left: 1.5rem;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 12px;
+      background-color: blue;
+      top: -1.5rem;
+    }
+    .title_box {
+      margin-top: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 765px) {
+    display: flex;
+    width: 576px;
+    height: 6rem;
+    .company_logo {
+      width: 6rem;
+      height: 6rem;
+    }
+    .title_box {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .title_text {
+        text-align: left;
+      }
+    }
+  }
+}
+.btn_container {
+  width: 95%;
+  justify-self: auto;
+  margin: 0 1rem;
+  a {
+    text-decoration: none;
+  }
+  @media screen and (min-width: 765px) {
+    width: 8rem;
+    margin-top: 0;
+    justify-self: normal;
+  }
+}
+.title_text {
+  margin: 1rem 0;
+  font-size: large;
+  font-weight: 700;
+}
+img {
+  width: 100%;
+  margin-top: 1.5rem;
+}

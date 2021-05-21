@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.cards_gallery {
+  width: 90vw;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+@media screen and (max-width: 768px) {
+  .cards_gallery {
+    width: 80%;
+  }
+}
+.search_wrapper {
+  width: 80vw;
+  margin: 2rem auto;
+}

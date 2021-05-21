@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs') %>
+<h1>Compose</h1>
+
+<form class="compose" action="/compose" method="post">
+
+  <form action="/compose" method="post">
+    <div class="form-group">
+      <h3>Title</h3>
+      <label for="exampleInputEmail1">Task Title:</label>
+      <input type="text" class="form-control" name="taskTitle" >
+      <small  class="form-text text-muted">Add a short descriptive title.</small>
+    </div>
+    <div class="form-group">
+      <h3>Post</h3>
+      <label for="exampleInputPassword1">Details here:</label>
+      <textarea class="form-control" name="taskDetails" rows="3"></textarea>
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+
+
+<%- include('partials/footer.ejs') %>

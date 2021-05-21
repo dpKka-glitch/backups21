@@ -1,0 +1,72 @@
+.card_container {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  background-color: aqua;
+  position: relative;
+  align-items: flex-start;
+  border-radius: 16px;
+  box-shadow: 3px 3px 13px 0px #d0ffd0;
+  margin: 1rem 0;
+  @media screen and (min-width: 481px) {
+    width: 22rem;
+  }
+  background: linear-gradient(125deg, #ceebf8 2%, #fffcf6 70%);
+}
+.text_3 {
+  margin-top: 3.5rem;
+  span {
+    width: 1.5rem;
+    margin-left: 1.25rem;
+  }
+}
+.text_1 {
+  font-weight: bold;
+  margin: 1rem 0 0.5rem 0;
+  font-size: large;
+  text-align: left;
+  max-width: 90%;
+}
+.text_2 {
+  font-size: medium;
+}
+.logo_top {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 16px;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  top: -1rem;
+  align-items: center;
+  overflow: hidden;
+  img {
+    width: 105%;
+    height: auto;
+  }
+}
+.details_btn {
+  position: absolute;
+  text-transform: uppercase;
+  right: 1.5rem;
+  top: 0.75rem;
+  font-size: small;
+  cursor: pointer;
+}
+
+.location {
+  position: absolute;
+  bottom: 2rem;
+  font-weight: 500;
+}
+// <div class=" m-8 w-96 h-60 md:w-c27 bg-green-100  flex flex-col pl-6 rounded-md relative " >
+//   <div class="absolute w-12 h-12 rounded-xl bg-blue-600 top-c-1 " ></div>
+//   <div class="absolute uppercase right-6 top-3 text-sm " > Details </div>
+//   <div class="mt-14" >   </div>
+//   <div class="text-lg font-bold mt-4 mb-2" ></div>
+//   <div class="text-md font-normal " ></div>
+//   <div class="absolute bottom-9 text-blue-300 font-medium text-md " > Munich </div>
+// </div>

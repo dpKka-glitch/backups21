@@ -1,0 +1,32 @@
+.overlay-container {
+  z-index: 5;
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: sticky;
+  left: 5vw;
+  top: 0;
+  background-image: linear-gradient(
+    120deg,
+    rgba(230, 255, 230, 0.94) 0%,
+    rgba(255, 241, 241, 0.94) 100%
+  );
+  background-blend-mode: overlay;
+  overflow-y: scroll;
+
+  @media screen and (min-width: 768px) {
+    width: 85vw;
+    left: 7.5vw;
+  }
+}
+.main {
+  background-color: transparent;
+}
+.close_btn {
+  position: absolute;
+  width: 1.5rem;
+  left: 1.5rem;
+  top: 1.5rem;
+}

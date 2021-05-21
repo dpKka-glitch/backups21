@@ -1,0 +1,9 @@
+node_modules
+dist
+.firebase
+.codesandbox
+.vscode
+.DS_Store
+dist
+dist-ssr
+*.local

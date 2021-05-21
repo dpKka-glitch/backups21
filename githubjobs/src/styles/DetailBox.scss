@@ -1,0 +1,39 @@
+.details_box {
+  width: 90vw;
+  text-align: start;
+  box-sizing: border-box;
+  background-color: white;
+  @media screen and (min-width: 765px) {
+    width: 576px;
+  }
+}
+
+.details_header {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  .bttn_container {
+    width: 95%;
+    margin: 1rem auto;
+  }
+  @media screen and (min-width: 765px) {
+    .bttn_container {
+      width: 8rem;
+      margin: 1rem 1rem;
+    }
+  }
+}
+.details_text {
+  padding: 0 1rem;
+}
+.header_text_box {
+  padding-left: 1rem;
+  min-width: 275px;
+}
+.text_sec {
+  margin-top: 0rem;
+}

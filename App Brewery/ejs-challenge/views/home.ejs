@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Home</h1>
+
+<p><%- homeText %></p></p>
+<% allPosts.forEach(function(ele){ %>
+  <h1><%-  ele.title  %></h1>
+  <p> <%- ele.body.substring(0, 10)  %>... <a href="post.ejs">Read More</a></p>
+<% }) %>
+
+<%- include('partials/footer.ejs') %>
+
+<% console.log( allPosts) %>

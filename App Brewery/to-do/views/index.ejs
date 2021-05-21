@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>To Do</title>
+  </head>
+  <body>
+
+    <div class="box" id="heading">
+      <h1><%- justAday %></h1>
+    </div>
+
+<div class="box">
+  <form class="" action="/" method="post">
+    <ul>
+        <li>Sleep</li>
+        <li>Play</li>
+        <% for(var i = 0 ; i < itemThis.length; i ++){ %>
+        <li><%- itemThis[i] %> </li>
+        <% } %>
+</div>
+
+
+      <input type="text" name="Task1" placeholder="Enter your task">
+      <button type="submit" name="button" >Add</button>
+  </ul>
+</form>
+  </body>
+</html>
